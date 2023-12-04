@@ -1,0 +1,66 @@
+public class bank{
+  private String Customer_name="Rithesh";
+  private String email="hello@hotmail.com";
+  private int phone = 123;
+  private int accNo =567;
+  private int balance= 10000;
+
+  public String getCustomer_name(String Customer_name)
+  {
+    return Customer_name;
+  }
+
+  public String getemail(String email){
+    return email;
+  }
+
+  public int getPhone(int phone){
+    return phone;
+  }
+
+  public int  getaccNo(int accNo){
+    return accNo;
+  }
+
+  public int  getBalance(int balance){
+    return balance;
+  }
+
+  public void setCustomer_name(String Customer_name){
+    this.Customer_name=Customer_name;
+  }
+
+  public void setemail(String email){
+    this.email=email;
+  }
+
+  public void setPhone(int phone){
+    this.phone=phone;
+  }
+  public void setaccNo(int accNo){
+    this.accNo=accNo;
+  }
+  public void setBalance(int balance){
+    this.balance=balance;
+  }
+  
+void deposite(int amount){
+  this.balance= this.balance+ amount;
+}
+
+  void withdraw (int amount){
+    this.balance=this.balance-amount;
+  }  
+
+
+  void display()
+  {
+    System.out.println("Name "+this.Customer_name);
+    System.out.println("email"+this.email);
+    System.out.println("phone"+this.phone);
+    System.out.println("accout"+this.accNo);
+    System.out.println("balance"+this.balance);
+    
+  }
+  
+}
