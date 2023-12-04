@@ -1,0 +1,56 @@
+public class Car{
+  private String model="bmw";
+  private String owner="rithesh";
+  private int wheels=4;
+  public String color= "red";
+
+  public String getModel(){
+    return model;
+  }
+
+  public String getOwner(){
+    return owner;
+  }
+
+  public int getWheels(){
+    return wheels;
+  }
+
+  public void setModel(String Model){
+    model=Model;
+  }
+
+  // public void setOwner(String Owner){
+  //   owner=Owner;
+  // }
+
+  //or
+  //make use of this keyword
+
+  //can also set some operation before setting the value
+  public void setOwner(String owner){
+    // if(owner == null){
+    //   owner="NULL";
+    // }
+
+    String lowerCase=owner.toLowerCase();
+    switch(lowerCase)
+      {
+        case "rithesh","vishnu" -> this.owner=owner;
+          default -> this.owner="NULL";
+      }
+
+    //other than rithesh and vishnu no one is owner
+  }
+
+  
+  public void setWheels(int Wheels){
+    wheels=Wheels;
+  }
+
+  //methods in java cant be decalred static
+  public void describe(){
+    System.out.println("the car is "+color+" and the model is "+model);
+  }
+  
+};
