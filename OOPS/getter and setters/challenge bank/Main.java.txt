@@ -2,7 +2,15 @@ public class Main1{
   public static void main(String[] args)
   {
     bank b= new bank();
+    //b.display();
+    b.withdraw(-5000);
+    //b.display();
+    b.deposite(-200);
+    b.display();
 
+     b.withdraw(-5000);
+    b.display();
+    b.deposite(-200);
     b.display();
   }
 }
