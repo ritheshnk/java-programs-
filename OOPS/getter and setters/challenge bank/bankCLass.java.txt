@@ -43,23 +43,44 @@ public class bank{
   public void setBalance(int balance){
     this.balance=balance;
   }
-  
+
 void deposite(int amount){
-  this.balance= this.balance+ amount;
+
+    try {
+        if (amount >= 0) {
+            this.balance=this.balance+amount;
+        }else{
+            throw new ArithmeticException(" Invalid bank balance");
+        }
+    } catch (Exception e) {
+        // TODO: handle exception
+        System.out.println("Invalid amount");
+    }
+
 }
 
   void withdraw (int amount){
-    this.balance=this.balance-amount;
+    try {
+        if (this.balance >= 0 && amount>0) {
+            this.balance=this.balance-amount;
+        }else{
+            throw new ArithmeticException(" Invalid bank balance");
+        }
+        
+    } catch (Exception e) {
+       System.out.println("Enter valid amount");
+    }
+    
   }  
 
 
   void display()
   {
     System.out.println("Name "+this.Customer_name);
-    System.out.println("email"+this.email);
-    System.out.println("phone"+this.phone);
-    System.out.println("accout"+this.accNo);
-    System.out.println("balance"+this.balance);
+    System.out.println("email "+this.email);
+    System.out.println("phone "+this.phone);
+    System.out.println("accout "+this.accNo);
+    System.out.println("balance "+this.balance);
     
   }
   
