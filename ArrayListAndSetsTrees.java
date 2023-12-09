@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
+import java.util.*;
 
 public class PracticeMan {
 
@@ -33,6 +30,24 @@ public class PracticeMan {
            System.out.println(x.next());
        }
        System.out.print(s);
+
+       Set t=new TreeSet();
+       t.add(10);
+       //t.add(rithesh); error
+       t.add(2);
+       t.add(45);
+       t.add(10);
+       t.add(100);
+
+       System.out.println("\n");
+       System.out.println(t);
+
+       Set name=new TreeSet();
+       name.add("Vishnu");
+       name.add("rithesh");
+       name.add("narayan");
+       name.add("vasudev");
+       System.out.println(name);
    }
 
 
