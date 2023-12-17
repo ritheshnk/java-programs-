@@ -1,0 +1,17 @@
+in eclipse 
+
+1 go to help->marketplace install testng then if pop come click  on always trust 
+
+2. got to project click on new maven project 
+   a) create simple maven project 
+  b)  give grop id and artifact id same and click finish 
+ 
+3) after creating in pom.xml file add dependencies from maven repository save the file name is TestNG
+
+
+
+
+FOR SELENIUM after above test
+
+go to MVN repo search selenium java ->click first link->got to latest version-> then copy dependencies
+
