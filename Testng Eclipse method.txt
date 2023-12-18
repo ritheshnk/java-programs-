@@ -7,7 +7,7 @@ in eclipse
   b)  give grop id and artifact id same and click finish 
  
 3) after creating in pom.xml file add dependencies from maven repository save the file name is TestNG
-
+   (dependencies include testng and selenium java)
 
 
 
