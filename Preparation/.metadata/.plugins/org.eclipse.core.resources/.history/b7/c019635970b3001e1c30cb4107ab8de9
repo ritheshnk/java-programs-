@@ -1,0 +1,18 @@
+package seleniumUdemy;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.Test;
+
+public class seleniumTut2 {
+	
+	static WebDriver driver;
+	
+	static {
+		ChromeOptions options= new ChromeOptions();
+		options.addArguments("--diable-popup-blocking")		
+	}
+  @Test
+  public void f() {
+  }
+}

@@ -1,0 +1,15 @@
+package seleniumUdemy;
+
+import org.testng.annotations.Test;
+
+public class seleniumTut2 {
+	
+	static Webdriver driver;
+	
+	static {
+		
+	}
+  @Test
+  public void f() {
+  }
+}

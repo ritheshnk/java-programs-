@@ -1,0 +1,11 @@
+package seleniumUdemy;
+
+import org.testng.annotations.Test;
+
+public class seleniumTut2 {
+	
+	stati  
+  @Test
+  public void f() {
+  }
+}
