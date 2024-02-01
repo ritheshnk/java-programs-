@@ -1,3 +1,5 @@
+package DSA;
+
 import java.util.Scanner;
 
 public class Arrayoperations{
@@ -12,7 +14,7 @@ public class Arrayoperations{
         }
 
 
-        //traversalv
+        //traversals
         System.out.println("The array is ");
 
          for(int i=0;i<n;i++)
