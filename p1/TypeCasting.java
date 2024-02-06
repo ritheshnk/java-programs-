@@ -23,6 +23,11 @@ public class TypeCasting {
 		System.out.println(obj1);
 		System.out.println(n);
 		
+		String s="10";
+		Integer r=Integer.parseInt(s);
+		
+		System.out.println(r);
+		
 		
 
 	}
